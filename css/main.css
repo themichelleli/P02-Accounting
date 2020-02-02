@@ -1,0 +1,294 @@
+
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+/*body {
+  font-family: sans-serif;
+  padding: 2rem;
+}*/
+
+*, *::after, *::before{
+  box-sizing:border-box;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+/*center align reference: https://www.freecodecamp.org/news/how-to-center-things-with-style-in-css-dc87b7542689/*/
+.page-header{
+  /*text-align:center;*/
+}
+
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.nav-main-button{
+  display: inline-block;
+  color:white;
+  background-color:#42499E;
+  padding:0.45rem 2rem;
+  margin:0.15rem 0.35rem;
+  border-color:1.5px solid white;
+  text-decoration:none;
+  transition:background-color 0.5s ease-out;
+  border-radius:18px;
+}
+
+.nav-main-button:active, .nav-main-button:hover, .nav-main-button:focus{
+  color:white;
+  background-color:#242058;
+}
+
+
+/*Styling for submission and reset button*/
+.nav-form-button{
+  display: inline-block;
+  color:black;
+  background-color:white;
+  padding:0.45rem 2rem;
+  margin:0.15rem 0.35rem;
+  border: 1.5px solid #42499E;
+  text-decoration:none;
+  transition:background-color 0.5s ease-out;
+  border-radius:18px;
+
+}
+
+.nav-form-button:active, .nav-form-button:hover, .nav-form-button:focus{
+  color:white;
+  background-color:#42499E;
+
+}
+
+/* Styling for the text field */
+.input-box{
+  border-radius:5px;
+  background-color:#f2f2f2;
+  padding:20px;
+}
+
+.input-box label{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 1rem 1rem;
+  margin: 1rem 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+body{
+  font-family: 'PT Serif', serif;
+  padding: 2rem;
+  letter-spacing: 2px;
+
+}
+
+h1, h2, h3, h4{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1{
+  font-size:3rem;
+}
+
+p{
+  max-width:40rem;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color:#297BA4;
+}
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+
+/* Styling for the product/service list */
+
+.flexbox{
+  /*this is the parent container*/
+  display:-webkit-flex;
+  display:-ms-flex;
+  display:flex;
+  /*we only need display: flex; however we need the webkit and ms as well for any browsers that can't support/need additional code to run the function*/
+
+  -webkit-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  /*tells it how to deal with running out of space when the screen gets too small*/
+
+  /*justify-content:space-around;*/
+
+}
+
+.flexbox-button-nav{
+  flex-basis: 1 1 auto;
+}
+.flexbox-item-image{
+  flex: 3 1 400px;
+  padding:4rem 4rem;
+
+}
+
+.flexbox-item-text{
+  flex: 1 1 18;
+  padding: 4rem 4rem;
+  max-width:35rem;
+  /*padding: 3rem 3rem;*/
+
+}
+@media (max-width:40em){
+  .flexbox{
+    flex-direction:column;
+  }
+}
+
+
+/* Styling for the grid structure */
+
+
+.container{
+  display:-webkit-flex;
+  display:-ms-flex;
+  display:flex;
+
+  -webkit-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+
+  margin: 2rem 0;
+
+}
+
+.box-item-left{
+  height:10rem;
+  flex: 1 1 auto;
+  background-color: #333;
+    display: inline-block;
+}
+
+.box-item-right{
+  height:10rem;
+  flex: 1 1 auto;
+      background-color: #AAA;
+
+}
+
+
+@media (max-width:40em){
+  .container{
+    flex-direction:column;
+  }
+}
+
+/* Styling for the swatches */
+
+.swatches{
+  display:-webkit-flex;
+  display:-ms-flex;
+  display:flex;
+
+  -webkit-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+
+  margin: 2rem 0;
+
+}
+
+.swatches p{
+  color:white;
+  margin:1rem 1rem;
+}
+
+.default-blue{
+  height: 200px;
+  flex: 1 1 auto;
+  background-color:#42499E;
+}
+
+.active-blue{
+  height: 200px;
+  flex: 1 1 auto;
+  background-color:#242058;
+}
+
+.layover-blue{
+  height: 200px;
+  flex: 1 1 auto;
+  background-color:#C7DAF1;
+}
+
+.accent-blue{
+  height: 200px;
+  flex: 1 1 auto;
+  background-color:#3ABAD1;
+}
+
+.muted-blue{
+  height: 200px;
+  flex: 1 1 auto;
+  background-color:#297BA4;
+}
+
+.accent-yellow{
+  height: 200px;
+  flex: 1 1 auto;
+  background-color:#FCDA4B;
+}
+
+@media (max-width:40em){
+  .swatches{
+    flex-direction:column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

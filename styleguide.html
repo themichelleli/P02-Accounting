@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- **FONTS** -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="page-header">
+    <h1>Style Guide Template</h1>
+
+    <nav class="nav-main flexbox">
+          <a href="styleguide.html" class="nav-main-button flexbox-button-nav">Styleguide</a>
+          <a href="https://xd.adobe.com/view/cd982a11-1866-4929-5752-f50e0e65c66d-bba9/?fullscreen&hints=off"target="_blank"class="nav-main-button flexbox-button-nav">Desktop Wireframe</a>
+          <a href="https://xd.adobe.com/view/4fd6a422-fb1f-46ea-4d10-a78f23aa3d01-39e7/?fullscreen&hints=off"target="_blank"class="nav-main-button flexbox-button-nav">Mobile Wireframe</a>
+          <a href="citations.html"class="nav-main-button flexbox-button-nav">Citations</a>
+
+        </nav>
+        <nav class="nav-main flexbox">
+          <a href="#interactive_elements" class="nav-form-button">Interactive Elements</a>
+          <a href="#text_elements" class="nav-form-button">Text Elements</a>
+          <a href="#combined_elements" class="nav-form-button">Combined Elements</a>
+        </nav>
+  </div> <!-- end of page-header -->
+    
+
+        <!-- Opening links in new tab taken from: https://www.thesitewizard.com/html-tutorial/open-links-in-new-window-or-tab.shtml -->
+
+   
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.nav-main-button</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Default Navigation Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="index.html" class="nav-main-button">Home</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>a</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#"&gt;In Text Link&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="#">This is a link</a>
+
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.flexbox-button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="nav-form-button"&gt;Submit/Reset Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="#" class="nav-form-button">Submit</a>
+        <a href="#" class="nav-form-button">Reset</a>
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+        <!-- Code reference taken from https://www.w3schools.com/css/tryit.asp?filename=trycss_forms -->
+
+        <h3>CSS selector:</h3>
+        <p>.input-box</p>
+        <p>.input-box label</p>
+        <p>.input[type=text]</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;form action="/#.php"&gt;</code> 
+        <code>&lt;label for="fname"&gt;First Name&lt;/label&gt;</code> 
+        <code>&lt;input type="text" id="fname" name="firstname" placeholder="Your name.."&gt;</code> 
+        <code>&lt;/form&gt;</code>
+
+
+        <h3>Rendered element:</h3>
+        <div class="input-box">
+          <form action="/#.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </form>
+
+        </div> <!-- end of text input box -->
+
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2>Headings</h2>
+
+        <h3>CSS selector:</h3>
+        <p>h1, h2, h4</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;h1&gt;Title&lt;/h1&gt;</code>
+        <code>&lt;h2&gt;Section Title&lt;/h2&gt;</code>
+        <code>&lt;h4&gt;Sub-Section Title&lt;/h4&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <h1>Title</h1>
+        <h2> Section Title </h2>
+        <h4> Sub-Section Title </h4>
+      
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+
+        <h3>CSS selector:</h3>
+        <p>p</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt;Paragraph&lt;/p&gt;</code>
+        
+
+        <h3>Rendered element:</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>ul</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ul&gt;&lt;li&gt;&lt;p&gt;List Item&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</code>
+        
+
+        <h3>Rendered element:</h3>
+        <ul>
+          <li>
+            <p>List Item</p>
+          </li>
+        </ul>
+
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+
+        <h3>CSS selector:</h3>
+        <p>ol</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;ol&gt;&lt;li&gt;&lt;p&gt;List Item&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</code>
+        
+
+        <h3>Rendered element:</h3>
+        <ol>
+          <li>
+            <p>List Item</p>
+          </li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2>Main Navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.nav-main</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;nav class="nav-main flexbox"&gt;</code> 
+        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Home&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Services&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Our Team&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Contact Us&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Promotions&lt;/a&gt;</code>
+
+        
+
+        <h3>Rendered element:</h3>
+        <nav class="nav-main flexbox">
+          <a href="#" class="nav-main-button flexbox-button-nav">Home</a>
+          <a href="#"class="nav-main-button flexbox-button-nav">Services</a>
+          <a href="#"class="nav-main-button flexbox-button-nav">Our Team</a>
+          <a href="#"class="nav-main-button flexbox-button-nav">Contact Us</a>
+          <a href="#"class="nav-main-button flexbox-button-nav">Promotions</a>
+        </nav>
+
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.flexbox-item-text</p>
+        <p>.flexbox-item-image</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="flexbox"&gt;</code> 
+        <code>&lt;div class="flexbox-item-text"&gt;</code> 
+        <code>&lt;h2&gt;Book Keeping&lt;/h2&gt;</code> 
+        <code>&lt;p&gt;About the service paragraph&lt;/p&gt;</code> 
+        <code>&lt;a href="#" class="nav-main-button"&gt;Book Consultation&lt;/a&gt;</code> 
+        <code>&lt;/div&gt;</code> 
+        <code>&lt;div class="flexbox-item-image"&gt;</code> 
+        <code>&lt;img src="photo.png" alt="service photo"&gt;</code> 
+        <code>&lt;/div&gt;</code> 
+        <code>&lt;/div&gt;</code> 
+
+
+
+        <h3>Rendered element:</h3>
+          <div class="flexbox">
+
+        <div class="flexbox-item-text">
+          <h2>BOOK KEEPING</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+              <a href="#team" class="nav-main-button">View More</a>
+        </div> <!-- end of .box-item-text -->
+        <div class="flexbox-item-image">
+          <img src="team_photo2.png" alt="team photo">
+        </div> <!-- end of .box-item-image -->
+      </div> <!-- end of flexbox -->
+      </section>
+
+      <section>
+        <h2>Grid Structure</h2>
+
+         <h3>CSS selector:</h3>
+        <p>.flexbox</p> 
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="container"&gt;</code>
+        <code>&lt;div class="container grid-left"&lt;/div&gt;</code>
+        <code>&lt;div class="container grid-right"&lt;/div&gt;</code>
+        
+        <code>&lt;/div&gt;</code>
+
+        <code>@media (max-width:40em){.container{ flex-direction:column;}}</code>
+        
+
+        <h3>Rendered element:</h3>
+        <div class="container">
+          
+          <div class="container box-item-left"></div>
+          <div class="container box-item-right"></div>
+          
+          
+      </div>
+
+      </section>
+
+      <section>
+        <h2>Colour Swatches</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.swatches</p> <p>.default-blue</p> <p>.active-blue</p> <p>.layover-blue</p> <p>.muted-blue</p> <p>.accent-yellow</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;div class="swatches"&gt;</code>
+        <code>&lt;div class="swatches default-blue"&lt;/div&gt;</code>
+        <code>&lt;div class="swatches active-blue"&lt;/div&gt;</code>
+        <code>&lt;div class="swatches layover-blue"&lt;/div&gt;</code>
+        <code>&lt;div class="swatches muted-blue"&lt;/div&gt;</code>
+        <code>&lt;div class="swatches accent-yellow"&lt;/div&gt;</code>
+        <code>&lt;/div&gt;</code>
+
+
+        <h3>Rendered element:</h3>
+        <div class="swatches">
+          
+          <div class="swatches default-blue">
+            <p>Default Blue</p>
+            <p>Code: #42499E</p>
+          </div>
+          <div class="swatches active-blue">
+            <p>Active Blue</p>
+            <p>Code: #242058</p>
+
+          </div>
+          <div class="swatches layover-blue">
+            <p>Layover Blue</p>
+            <p>Code: #C7DAF1</p>
+
+          </div>
+          <div class="swatches accent-blue">
+             <p>Accent Blue</p>
+             <p>Code: #3ABAD1</p>
+
+          </div>
+          <div class="swatches muted-blue">
+             <p>Muted Blue</p>
+             <p>Code: #297BA4</p>
+
+          </div>
+          <div class="swatches accent-yellow">
+             <p>Accent Yellow</p>
+             <p>Code: #FCDA4B</p>
+
+          </div>
+          
+      </div>
+
+
+      </section>
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>
