@@ -110,14 +110,13 @@ input[type=text]{
 */
 
 body{
-  font-family: 'PT Serif', serif;
-  padding: 2rem;
+  font-family: 'Montserrat', sans-serif;  padding: 2rem;
   letter-spacing: 2px;
 
 }
 
-h1, h2, h3, h4{
-  font-family: 'Montserrat', sans-serif;
+h1, h2, h3{
+  font-family: 'Raleway', sans-serif;
 
 }
 
