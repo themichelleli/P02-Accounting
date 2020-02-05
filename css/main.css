@@ -46,18 +46,19 @@ section code {
 .nav-main-button{
   display: inline-block;
   color:white;
-  background-color:#42499E;
+  /*background-color:#42499E;*/
+  background-color:#81A1C1;
   padding:0.45rem 2rem;
   margin:0.15rem 0.35rem;
-  border-color:1.5px solid white;
+  border-color:1.35px solid white;
   text-decoration:none;
   transition:background-color 0.5s ease-out;
-  border-radius:18px;
+  border-radius:14px;
 }
 
 .nav-main-button:active, .nav-main-button:hover, .nav-main-button:focus{
   color:white;
-  background-color:#242058;
+  background-color:#5E81AC;
 }
 
 
@@ -68,16 +69,16 @@ section code {
   background-color:white;
   padding:0.45rem 2rem;
   margin:0.15rem 0.35rem;
-  border: 1.5px solid #42499E;
+  border: 1.35px solid #5E81AC;
   text-decoration:none;
   transition:background-color 0.5s ease-out;
-  border-radius:18px;
+  border-radius:14px;
 
 }
 
 .nav-form-button:active, .nav-form-button:hover, .nav-form-button:focus{
   color:white;
-  background-color:#42499E;
+  background-color:#5E81AC;
 
 }
 
@@ -111,7 +112,7 @@ input[type=text]{
 
 body{
   font-family: 'Montserrat', sans-serif;  padding: 2rem;
-  letter-spacing: 2px;
+  /*letter-spacing: 2px;*/
 
 }
 
@@ -134,10 +135,19 @@ p{
 
 a{
   text-decoration: none;
-  font-weight: bold;
-  color:#297BA4;
+  
 }
 
+.link-section a{
+font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color:#5E81AC;
+}
+
+.link-section a:hover, a:focus, a:active{
+    color:#297BA4;
+
+}
 
 
 /* 
