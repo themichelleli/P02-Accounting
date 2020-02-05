@@ -325,6 +325,19 @@ font-family: 'Montserrat', sans-serif;
 
 
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.grid-1 {
+  flex: 0 1 auto;
+  width: 8%;
+  height: 50px;
+  background-color: black;
+}
 
 
 
