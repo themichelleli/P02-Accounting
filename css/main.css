@@ -124,6 +124,10 @@ h1{
   font-size:3rem;
 }
 
+h3{
+  font-size:1rem;
+}
+
 p{
   max-width:40rem;
 }
@@ -239,6 +243,34 @@ a{
   margin:1rem 1rem;
 }
 
+
+/**** NEW SWATCHES ****/
+.seafoam-green{
+  height: 200px;
+  flex: 1 1 auto;
+  background-color:#8FBCBB;
+}
+
+.teal{
+  height: 200px;
+  flex: 1 1 auto;
+  background-color:#88C0D0;
+}
+
+.soft-light-blue{
+  height: 200px;
+  flex: 1 1 auto;
+  background-color:#81A1C1;
+}
+
+.soft-medium-blue{
+  height: 200px;
+  flex: 1 1 auto;
+  background-color:#5E81AC;
+}
+
+
+/**** OLD SWATCHES ****/
 .default-blue{
   height: 200px;
   flex: 1 1 auto;
@@ -269,11 +301,11 @@ a{
   background-color:#297BA4;
 }
 
-.accent-yellow{
+/*.accent-yellow{
   height: 200px;
   flex: 1 1 auto;
   background-color:#FCDA4B;
-}
+}*/
 
 @media (max-width:40em){
   .swatches{
