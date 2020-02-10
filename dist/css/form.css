@@ -1,0 +1,19 @@
+.form {
+  border: 1px solid lightgrey;
+  display: table;
+  padding: 2em;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  margin: 0.8em 0;
+}
+
+.form__label {
+  margin-right: 0.5em;
+}
+
+.form__input {
+  border-radius: 0.3em;
+}
