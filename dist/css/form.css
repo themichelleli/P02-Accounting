@@ -1,19 +1,88 @@
+/* 
+ * resources:
+ *      https://www.w3schools.com/html/html_forms.asp
+ * */
+
 .form {
   border: 1px solid lightgrey;
   display: table;
-  padding: 2em;
+  padding: 8em 4em;
+  border-radius: 15px;
+  font-size: 0.85em;
+  font-weight: 300;
 }
 
+.form__header {
+  font-weight: 900;
+  font-size: 1.1em;
+  letter-spacing: 0.15em;
+  color: #535461;
+  margin-bottom: 3em;
+}
+/* 
+ * resource from: https://stackoverflow.com/questions/3131072/how-to-change-input-text-box-style-to-line
+ * */
 .form__field {
   display: flex;
   flex-direction: column;
-  margin: 0.8em 0;
+  margin-bottom: 1.5em;
 }
 
 .form__label {
-  margin-right: 0.5em;
+  margin-bottom: 1em;
+  letter-spacing: 0.15em;
 }
 
 .form__input {
   border-radius: 0.3em;
+
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #535461;
 }
+
+.form__btn {
+  border: 1px solid #535461;
+  color: #535461;
+  font-size: 0.85em;
+  font-weight: 300;
+
+  border-radius: 16px;
+  padding: 0.5em 2.5em;
+}
+
+.form__btn--toggle {
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 0.5em 2em;
+}
+
+.form__btn--toggle:hover {
+  background-color: #535461;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form__btn--submit {
+  border: 1px solid #81A1C1;
+  border-radius: 16px;
+  padding: 0.5em 2.5em;
+  background-color: #81A1C1;
+  color: #fff;
+}
+
+.form__btn--submit:hover {
+  background-color: #fff;
+  color: #81A1C1;
+}
+
+.form__btn--submit-reverse {
+  background-color: #fff;
+  color: #81A1C1;
+}
+
+.form__btn--submit-reverse:hover {
+  background-color: #81A1C1;
+  color: #fff;
+}   
