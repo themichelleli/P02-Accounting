@@ -50,7 +50,7 @@
   font-size: 0.9em;
   margin:0.15rem 0.35rem;
   padding:0.45rem 2.5rem;
-
+  text-decoration:none;
   letter-spacing:2px;
   transition:background-color 0.5s ease-out;
 
@@ -76,7 +76,7 @@
   font-size: 0.9em;
   margin:0.15rem 0.35rem;
   padding:0.45rem 2rem;
-
+  text-decoration:none;
   letter-spacing:2px;
   transition:background-color 0.5s ease-out;
 
@@ -104,7 +104,7 @@
   font-size: 0.9em;
   margin:0.15rem 0.35rem;
   padding:0.45rem 2rem;
-
+  text-decoration:none;
   letter-spacing:2px;
   transition:background-color 0.5s ease-out;
 
@@ -121,6 +121,14 @@
 
 /* Services Filter Bar Buttons*/
 
+.nav-services {
+  background-color:none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 0;
+}
+
 .nav__btn-filter{
   display:inline-block;
   background-color: white;
@@ -132,7 +140,7 @@
   font-weight:bold;
   margin:0.15rem 0.35rem;
   padding:0.45rem 2rem;
-
+  text-decoration:none;
   letter-spacing:2px;
   transition:background-color 0.5s ease-out;
 
@@ -149,7 +157,7 @@
   font-size: 0.9em;
   margin:0.15rem 0.35rem;
   padding:0.45rem 2rem;
-
+  text-decoration:none;
   letter-spacing:2px;
   transition:background-color 0.5s ease-out;
 

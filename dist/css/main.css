@@ -1,5 +1,95 @@
 /*  Global Styling */
 
+*, *::after, *::before{
+
+	box-sizing:border-box;
+}
+
 body {
   font-family: 'Raleway', sans-serif;
+}
+
+.nav, .services, .about{
+  display:-webkit-flex;
+  display:-ms-flex;
+  display:flex;
+
+  -webkit-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+
+  /*margin: 2rem 0;*/
+  /*position:absolute;*/
+  margin: 4rem 4rem;
+
+}
+
+h2{
+	/*position:relative;*/
+	
+	margin:1rem 6rem;
+	padding-top: 10rem;
+}
+
+
+.services__img{
+	position:relative;
+	flex: 2 1 auto;
+	/*display:inline-block;*/
+	/*width:30rem;*/
+	height:20rem;
+	margin:1rem 2rem;
+	padding: 1rem 1rem;
+	background-color:#C7DAF1;
+}
+
+.services__text{
+	position:relative;
+	margin:1rem 2rem;
+}
+
+.about{
+	padding-top:10rem;
+}
+
+.about h2{
+	margin:0 0;
+	padding-top:0;
+}
+
+
+.about__img{
+	position:relative;
+	flex: 2 1 auto;
+	/*display:inline-block;*/
+	/*width:30rem;*/
+	height:20rem;
+	margin:1rem 2rem;
+	padding: 1rem 1rem;
+	background-color:#C7DAF1;
+
+}
+
+.about__text{
+	position:relative;
+	flex:2 1 auto;
+	margin:1rem 2rem;
+	max-width:40rem;
+
+}
+
+@media (max-width:45em){
+	.nav, .services, .about{
+		flex-direction:column;
+	}
+
+	h2{
+		padding-top:1rem;
+	}
+
+	.about{
+		padding-top:1rem;
+	}
+	
+
 }
