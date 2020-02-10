@@ -8,7 +8,15 @@
     <link href="css/main.css" rel="stylesheet">
 
     <!-- **FONTS** -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900&display=swap" rel="stylesheet">
+    <!-- regular 400, medium 500, bold 700, black 900 -->
+
+   <!--  <link href="https://fonts.googleapis.com/css?family=Raleway:800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500&display=swap" rel="stylesheet">
+ -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> -->
+
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
@@ -24,20 +32,20 @@
     <h1>Style Guide Template</h1>
 
     <nav class="nav-main flexbox">
-          <a href="styleguide.html" class="nav-main-button flexbox-button-nav">Styleguide</a>
+          <a href="styleguide.html" class="nav__btn-primary flexbox-button-nav">Styleguide</a>
 
-          <a href="https://xd.adobe.com/view/cd982a11-1866-4929-5752-f50e0e65c66d-bba9/?fullscreen&hints=off"target="_blank"class="nav-main-button flexbox-button-nav">Desktop Wireframe</a>
-          <a href="https://xd.adobe.com/view/4fd6a422-fb1f-46ea-4d10-a78f23aa3d01-39e7/?fullscreen&hints=off"target="_blank"class="nav-main-button flexbox-button-nav">Mobile Wireframe</a>
+          <a href="https://xd.adobe.com/view/cd982a11-1866-4929-5752-f50e0e65c66d-bba9/?fullscreen&hints=off"target="_blank"class="nav__btn-primary flexbox-button-nav">Desktop Wireframe</a>
+          <a href="https://xd.adobe.com/view/4fd6a422-fb1f-46ea-4d10-a78f23aa3d01-39e7/?fullscreen&hints=off"target="_blank"class="nav__btn-primary flexbox-button-nav">Mobile Wireframe</a>
 
-          <a href="sitemap.html"target="_blank"class="nav-main-button flexbox-button-nav">Site Map</a>
+          <a href="sitemap.html"target="_blank"class="nav__btn-primary flexbox-button-nav">Site Map</a>
 
-          <a href="citations.html"class="nav-main-button flexbox-button-nav">Citations</a>
+          <a href="citations.html"class="nav__btn-primary flexbox-button-nav">Citations</a>
 
         </nav>
         <nav class="nav-main flexbox">
-          <a href="#interactive_elements" class="nav-form-button">Interactive Elements</a>
-          <a href="#text_elements" class="nav-form-button">Text Elements</a>
-          <a href="#combined_elements" class="nav-form-button">Combined Elements</a>
+          <a href="#interactive_elements" class="nav__btn-secondary">Interactive Elements</a>
+          <a href="#text_elements" class="nav__btn-secondary">Text Elements</a>
+          <a href="#combined_elements" class="nav__btn-secondary">Combined Elements</a>
         </nav>
   </div> <!-- end of page-header -->
     
@@ -53,20 +61,152 @@
       <!-- Default Button styling section -->
       <section>
 
-        <h2>Navigation Button</h2>
+        <h2>Primary Button</h2>
 
         <h3>CSS selector:</h3>
-        <p>.nav-main-button</p>
+        <p>.nav__btn-primary</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Default Navigation Button&lt;/a&gt;</code>
+        <code>&lt;a href="#" class="nav__btn-primary"&gt;VIEW&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a href="index.html" class="nav-main-button">Home</a>
+        <a href="#" class="nav__btn-primary">VIEW</a>
 
       </section>
 
+
+
+
+
+
+
       <section>
+
+        <h2>Secondary Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.nav__btn-secondary</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="nav__btn-secondary"&gt;Monday&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="#" class="nav__btn-secondary">Monday</a>
+
+      </section>
+
+      
+     
+
+
+
+
+
+
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.flexbox-button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="nav__btn-secondary"&gt;Submit/Reset Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a href="#" class="nav__btn-secondary-reset">Reset</a>
+        <a href="#" class="nav__btn-secondary">Submit</a>
+
+      </section>
+
+      
+
+
+
+
+
+
+ <section>
+        <h2>Main Navigation</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.nav-main</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;nav class="nav"&gt;</code> 
+        <code>&lt;nav class="nav__btn-group"&gt;</code> 
+        <code>&lt;a href="#" class="nav__btn"&gt;home&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav__btn"&gt;about&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav__btn"&gt;services&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav__btn"&gt;contact&lt;/a&gt;</code> 
+
+        
+
+        <h3>Rendered element:</h3>
+        <nav class="nav">
+          <h1>Logo</h1>
+          <div class="nav__btn-group">
+            <a href="#" class="nav__btn">home</a>
+            <a href="#" class="nav__btn">about</a>
+            <a href="#" class="nav__btn">services</a>
+            <a href="#" class="nav__btn">contact</a>
+
+          </div>
+        </nav>
+       
+
+      </section>
+
+
+
+
+
+
+
+
+<section>
+        <h2>Services Filter Bar</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.nav_btn-filter</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;nav class="nav"&gt;</code> 
+        <code>&lt;nav class="nav__btn-group"&gt;</code> 
+        <code>&lt;a href="#" class="nav__btn"&gt;All&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav__btn"&gt;Personal&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav__btn"&gt;Small Business&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav__btn"&gt;Medium Business&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav__btn"&gt;Large Business&lt;/a&gt;</code> 
+
+        
+
+        <h3>Rendered element:</h3>
+        <nav class="nav">
+          <div class="nav__btn-group">
+            <p class="nav__btn-filter">Filter:</p>
+            <a href="#" class="nav__btn-filter-op">All</a>
+            <a href="#" class="nav__btn-filter-op">Personal</a>
+            <a href="#" class="nav__btn-filter-op">Small Business</a>
+            <a href="#" class="nav__btn-filter-op">Medium Business</a>
+            <a href="#" class="nav__btn-filter-op">Large Business</a>
+
+          </div>
+        </nav>
+       
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+ <section>
         <h2>In-text link</h2>
 
         <h3>CSS selector:</h3>
@@ -82,19 +222,14 @@
 
       </section>
 
-      <section>
-        <h2>Submit/Reset Buttons</h2>
 
-        <h3>CSS selector:</h3>
-        <p>.flexbox-button-nav</p>
 
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="nav-form-button"&gt;Submit/Reset Button&lt;/a&gt;</code>
 
-        <h3>Rendered element:</h3>
-        <a href="#" class="nav-form-button">Submit</a>
-        <a href="#" class="nav-form-button">Reset</a>
-      </section>
+
+
+
+
+
 
       <section>
         <h2>Text Input Field</h2>
@@ -128,6 +263,13 @@
 
 
 
+   
+
+
+
+
+
+
     <!-- TEXT ELEMENTS SECTION // -->
     <section id="text_elements">
 
@@ -149,6 +291,16 @@
       
       </section>
 
+     
+
+
+
+
+
+
+
+
+
       <section>
         <h2>Paragraphs</h2>
 
@@ -163,6 +315,16 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
       </section>
+
+      
+
+
+
+
+
+
+
+
 
       <section>
         <h2>Bulleted Lists</h2>
@@ -182,6 +344,16 @@
         </ul>
 
       </section>
+
+  
+
+
+
+
+
+
+
+
 
       <section>
         <h2>Numbered Lists</h2>
@@ -206,35 +378,20 @@
 
 
 
+  
+
+
+
+
+
+
+
+
+
     <!-- COMBINED ELEMENTS SECTION // -->
     <section id="combined_elements">
 
-      <section>
-        <h2>Main Navigation</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.nav-main</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;nav class="nav-main flexbox"&gt;</code> 
-        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Home&lt;/a&gt;</code> 
-        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Services&lt;/a&gt;</code> 
-        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Our Team&lt;/a&gt;</code> 
-        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Contact Us&lt;/a&gt;</code> 
-        <code>&lt;a href="#" class="nav-main-button flexbox-button-nav"&gt;Promotions&lt;/a&gt;</code>
-
-        
-
-        <h3>Rendered element:</h3>
-        <nav class="nav-main flexbox">
-          <a href="#" class="nav-main-button flexbox-button-nav">Home</a>
-          <a href="#"class="nav-main-button flexbox-button-nav">Services</a>
-          <a href="#"class="nav-main-button flexbox-button-nav">Our Team</a>
-          <a href="#"class="nav-main-button flexbox-button-nav">Contact Us</a>
-          <a href="#"class="nav-main-button flexbox-button-nav">Promotions</a>
-        </nav>
-
-      </section>
+     
 
       <section>
         <h2>Product Listing</h2>
@@ -248,7 +405,7 @@
         <code>&lt;div class="flexbox-item-text"&gt;</code> 
         <code>&lt;h2&gt;Book Keeping&lt;/h2&gt;</code> 
         <code>&lt;p&gt;About the service paragraph&lt;/p&gt;</code> 
-        <code>&lt;a href="#" class="nav-main-button"&gt;Book Consultation&lt;/a&gt;</code> 
+        <code>&lt;a href="#" class="nav__btn-primary"&gt;Book Consultation&lt;/a&gt;</code> 
         <code>&lt;/div&gt;</code> 
         <code>&lt;div class="flexbox-item-image"&gt;</code> 
         <code>&lt;img src="photo.png" alt="service photo"&gt;</code> 
@@ -263,13 +420,26 @@
         <div class="flexbox-item-text">
           <h2>BOOK KEEPING</h2>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-              <a href="#team" class="nav-main-button">View More</a>
+              <a href="#team" class="nav__btn-primary">View More</a>
         </div> <!-- end of .box-item-text -->
         <div class="flexbox-item-image">
           <img src="team_photo2.png" alt="team photo">
         </div> <!-- end of .box-item-image -->
       </div> <!-- end of flexbox -->
       </section>
+
+     
+
+
+
+
+
+
+
+
+
+
+
 
       <section>
         <h2>Grid Structure</h2>
@@ -317,6 +487,20 @@
       </div>
 
       </section>
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
 
       <section>
         <h2>Colour Swatches</h2>
