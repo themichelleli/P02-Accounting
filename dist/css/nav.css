@@ -165,7 +165,7 @@
 }
 
 .nav__btn-filter-op:hover, .nav__btn-filter-op:focus, .nav__btn-filter-op:active{
-  background-color:rgba(143, 188, 187, 0.5);
+  background-color:rgba(94, 129, 172, 0.5);
   color:white;
   font-weight:bold;
 }

@@ -9,7 +9,7 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.nav, .services, .about{
+.nav, .services, .about, .serv{
   display:-webkit-flex;
   display:-ms-flex;
   display:flex;
@@ -24,13 +24,22 @@ body {
 
 }
 
-h2{
-	/*position:relative;*/
-	
+/*h2{	
 	margin:1rem 6rem;
 	padding-top: 10rem;
+}*/
+
+.services{
+	display:block;
 }
 
+.services h2{
+	margin: 1rem 2rem;
+}
+
+.services__img-group{
+	display:flex;
+}
 
 .services__img{
 	position:relative;
@@ -73,10 +82,37 @@ h2{
 .about__text{
 	position:relative;
 	flex:2 1 auto;
-	margin:1rem 2rem;
+	margin:6rem 2rem;
 	max-width:40rem;
 
 }
+
+.about__text .nav__btn-primary{
+	margin-top:2rem;
+}
+
+
+.serv__group{
+	display:inline-block;
+	margin:2rem 3rem;
+
+}
+
+.serv__group-img{
+	width:20rem;
+	height:20rem;	
+	background-color:#C7DAF1;
+	flex:3 1 auto;
+
+}
+
+.serv__group-text{
+	max-width:20rem;
+	margin:2rem 0;
+	text-align:center;
+}
+
+
 
 @media (max-width:45em){
 	.nav, .services, .about{
