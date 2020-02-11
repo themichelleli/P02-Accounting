@@ -9,7 +9,22 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.nav, .services, .about, .serv{
+
+.nav, .footer{
+  display:-webkit-flex;
+  display:-ms-flex;
+  display:flex;
+
+  -webkit-flex-wrap:wrap;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+
+
+
+}
+
+
+.services, .about, .serv{
   display:-webkit-flex;
   display:-ms-flex;
   display:flex;
@@ -110,6 +125,25 @@ body {
 	max-width:20rem;
 	margin:2rem 0;
 	text-align:center;
+}
+
+.footer-info{
+	display:flex;
+	background-color:rgba(94, 129, 172, 0.1);
+	padding:2rem 6rem;
+}
+
+.footer-info p{
+	font-size:0.75rem;
+}
+
+.footer-info__left h3{
+	font-size:0.75rem;
+	font-weight:700;
+}
+
+.footer-info__right{
+	margin:0 8rem;
 }
 
 
