@@ -24,7 +24,7 @@ body {
 }
 
 
-.services, .about, .serv-options, .testimonials{
+.services, .about, .serv-options, .testimonials, .book-keeping{
   display:-webkit-flex;
   display:-ms-flex;
   display:flex;
@@ -73,7 +73,7 @@ body {
 }
 
 .about{
-	padding-top:10rem;
+	padding-top:4rem;
 }
 
 .about h2{
@@ -125,6 +125,40 @@ body {
 	max-width:20rem;
 	margin:2rem 0;
 	text-align:center;
+}
+
+.book-keeping{
+	padding-top:4rem;
+}
+
+.book-keeping h2{
+	margin:0 0;
+	padding-top:0;
+}
+
+
+.book-keeping__img{
+	position:relative;
+	flex: 2 1 auto;
+	/*display:inline-block;*/
+	/*width:30rem;*/
+	height:20rem;
+	margin:1rem 2rem;
+	padding: 1rem 1rem;
+	background-color:#C7DAF1;
+
+}
+
+.book-keeping__text{
+	position:relative;
+	flex:2 1 auto;
+	margin:3rem 2rem;
+	max-width:40rem;
+
+}
+
+.book-keeping__text .nav__btn-primary{
+	margin-top:2rem;
 }
 
 .testimonials__group{
