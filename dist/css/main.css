@@ -24,7 +24,7 @@ body {
 }
 
 
-.services, .about, .serv{
+.services, .about, .serv-options, .testimonials{
   display:-webkit-flex;
   display:-ms-flex;
   display:flex;
@@ -44,11 +44,11 @@ body {
 	padding-top: 10rem;
 }*/
 
-.services{
+.services, .testimonials{
 	display:block;
 }
 
-.services h2{
+.services h2, .testimonials h2{
 	margin: 1rem 2rem;
 }
 
@@ -107,13 +107,13 @@ body {
 }
 
 
-.serv__group{
+.serv-options__group{
 	display:inline-block;
 	margin:2rem 3rem;
 
 }
 
-.serv__group-img{
+.serv-options__group-img{
 	width:20rem;
 	height:20rem;	
 	background-color:#C7DAF1;
@@ -121,11 +121,26 @@ body {
 
 }
 
-.serv__group-text{
+.serv-options__group-text{
 	max-width:20rem;
 	margin:2rem 0;
 	text-align:center;
 }
+
+.testimonials__group{
+	display:inline-block;
+	margin:2rem 3rem;
+
+}
+
+.testimonials__group-text{
+	max-width:20rem;
+	margin:2rem 0;
+	text-align:center;
+}
+
+
+
 
 .footer-info{
 	display:flex;
