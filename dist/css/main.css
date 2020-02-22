@@ -24,32 +24,8 @@ body {
 }
 
 
-.services, .about, .serv-options, .testimonials, .book-keeping{
-  display:-webkit-flex;
-  display:-ms-flex;
-  display:flex;
-
-  -webkit-flex-wrap:wrap;
-  -ms-flex-wrap:wrap;
-  flex-wrap:wrap;
-
-  /*margin: 2rem 0;*/
-  /*position:absolute;*/
-  margin: 4rem 4rem;
-
-}
-
-/*h2{	
-	margin:1rem 6rem;
-	padding-top: 10rem;
-}*/
-
-.services, .testimonials{
-	display:block;
-}
-
 h2{
-	margin: 2rem 1rem;
+	margin: 2rem 2rem;
 }
 
 .services__img-group{
@@ -60,20 +36,21 @@ h2{
 	position:relative;
 	flex: 2 1 auto;
 	height:20rem;
-	margin:2rem 1rem;
+	margin:2rem 2rem;
 	background-color:#C7DAF1;
 }
 
 .section__text{
 	position:relative;
 	flex: 2 1 auto;
-	margin:2rem 1rem;
+	margin:2rem 2rem;
+	text-align: center;
 }
 
 .section__tri-text{
 	position:relative;
 	flex: 2 1 auto;
-	margin:2rem 2rem;
+	margin:1rem 2rem;
 	text-align: center;
 }
 
@@ -86,30 +63,6 @@ h2{
 
 
 
-.about__text .nav__btn-primary{
-	margin-top:2rem;
-}
-
-
-.serv-options__group{
-	display:inline-block;
-	margin:2rem 3rem;
-
-}
-
-.serv-options__group-img{
-	width:20rem;
-	height:20rem;	
-	background-color:#C7DAF1;
-	flex:3 1 auto;
-
-}
-
-.serv-options__group-text{
-	max-width:20rem;
-	margin:2rem 0;
-	text-align:center;
-}
 
 .book-keeping{
 	padding-top:4rem;
@@ -145,17 +98,6 @@ h2{
 	margin-top:2rem;
 }
 
-.testimonials__group{
-	display:inline-block;
-	margin:2rem 3rem;
-
-}
-
-.testimonials__group-text{
-	max-width:20rem;
-	margin:2rem 0;
-	text-align:center;
-}
 
 
 
