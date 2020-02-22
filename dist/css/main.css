@@ -48,59 +48,43 @@ body {
 	display:block;
 }
 
-.services h2, .testimonials h2{
-	margin: 1rem 2rem;
+h2{
+	margin: 2rem 1rem;
 }
 
 .services__img-group{
 	display:flex;
 }
 
-.services__img{
+.cover__img{
 	position:relative;
 	flex: 2 1 auto;
-	/*display:inline-block;*/
-	/*width:30rem;*/
 	height:20rem;
-	margin:1rem 2rem;
-	padding: 1rem 1rem;
+	margin:2rem 1rem;
 	background-color:#C7DAF1;
 }
 
-.services__text{
-	position:relative;
-	margin:1rem 2rem;
-}
-
-.about{
-	padding-top:4rem;
-}
-
-.about h2{
-	margin:0 0;
-	padding-top:0;
-}
-
-
-.about__img{
+.section__text{
 	position:relative;
 	flex: 2 1 auto;
-	/*display:inline-block;*/
-	/*width:30rem;*/
-	height:20rem;
-	margin:1rem 2rem;
-	padding: 1rem 1rem;
-	background-color:#C7DAF1;
-
+	margin:2rem 1rem;
 }
 
-.about__text{
+.section__tri-text{
 	position:relative;
-	flex:2 1 auto;
-	margin:6rem 2rem;
-	max-width:40rem;
-
+	flex: 2 1 auto;
+	margin:2rem 2rem;
+	text-align: center;
 }
+
+
+
+
+
+
+
+
+
 
 .about__text .nav__btn-primary{
 	margin-top:2rem;
