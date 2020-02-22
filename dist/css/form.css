@@ -10,8 +10,7 @@
   border-radius: 15px;
   font-size: 0.85em;
   font-weight: 300;
-  margin:4rem 8rem;
-
+  width: 100%;
 }
 
 .form__header {
@@ -49,7 +48,7 @@
   color: #535461;
   font-size: 0.85em;
   font-weight: 300;
-
+  width: 100%;
   border-radius: 16px;
   padding: 0.5em 2.5em;
 }
@@ -67,24 +66,24 @@
 }
 
 .form__btn--submit {
-  border: 1px solid #81A1C1;
+  border: 1px solid #81a1c1;
   border-radius: 16px;
   padding: 0.5em 2.5em;
-  background-color: #81A1C1;
+  background-color: #81a1c1;
   color: #fff;
 }
 
 .form__btn--submit:hover {
   background-color: #fff;
-  color: #81A1C1;
+  color: #81a1c1;
 }
 
 .form__btn--submit-reverse {
   background-color: #fff;
-  color: #81A1C1;
+  color: #81a1c1;
 }
 
 .form__btn--submit-reverse:hover {
-  background-color: #81A1C1;
+  background-color: #81a1c1;
   color: #fff;
-}   
+}
