@@ -19,18 +19,14 @@ body {
   -ms-flex-wrap:wrap;
   flex-wrap:wrap;
 
-
-
 }
+
 
 
 h2{
 	margin: 2rem 2rem;
 }
-
-.services__img-group{
-	display:flex;
-}
+	
 
 .cover__img{
 	position:relative;
@@ -64,39 +60,6 @@ h2{
 
 
 
-.book-keeping{
-	padding-top:4rem;
-}
-
-.book-keeping h2{
-	margin:0 0;
-	padding-top:0;
-}
-
-
-.book-keeping__img{
-	position:relative;
-	flex: 2 1 auto;
-	/*display:inline-block;*/
-	/*width:30rem;*/
-	height:20rem;
-	margin:1rem 2rem;
-	padding: 1rem 1rem;
-	background-color:#C7DAF1;
-
-}
-
-.book-keeping__text{
-	position:relative;
-	flex:2 1 auto;
-	margin:3rem 2rem;
-	max-width:40rem;
-
-}
-
-.book-keeping__text .nav__btn-primary{
-	margin-top:2rem;
-}
 
 
 
