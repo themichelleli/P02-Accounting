@@ -27,20 +27,47 @@ h2{
 	margin: 2rem 2rem;
 }
 	
+img{
+	max-width:20rem;
+	text-align:center;
+}
+
+.form{
+	max-width:30rem;
+	max-height:30rem;
+}
+
+.header__img{
+	max-width:100%;
+	z-index:1;
+	/*max-height:20rem;*/
+}
+
+
+
+.services__img{
+	position:relative;
+	flex: 2 1 auto;
+	margin:2rem 2rem;
+}
 
 .cover__img{
 	position:relative;
 	flex: 2 1 auto;
 	height:20rem;
 	margin:2rem 2rem;
-	background-color:#C7DAF1;
+	/*background-color:#C7DAF1;*/
+}
+
+.cover__img img{
+	max-width:100%;
 }
 
 .section__text{
 	position:relative;
 	flex: 2 1 auto;
 	margin:2rem 2rem;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 .section__tri-text{
@@ -51,6 +78,21 @@ h2{
 }
 
 
+.about h1{
+	margin:0 2rem;
+	margin-bottom:0rem;
+	margin-top:5rem;
+}
+
+.services h1{
+	text-align: center;
+}
+
+
+.services img{
+	border-radius: 12px;
+  	border: 1.35px solid #5E81AC;
+}
 
 
 
