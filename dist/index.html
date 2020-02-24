@@ -15,8 +15,8 @@
 
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/grid.css" />
-    <link rel="stylesheet" href="./css/nav.css" />
-    <link rel="stylesheet" href="./css/form.css" />
+    <!-- <link rel="stylesheet" href="./css/nav.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/form.css" /> -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
@@ -102,23 +102,30 @@
       </div>
     </section>
 
-    <section class="services">
-      <h2>Services</h2>
-      <div class="services__img-group">
-        <div class="services__img"></div>
-        <!-- end of services__img -->
-        <div class="services__img"></div>
-        <!-- end of services__img -->
+    <section class="services container">
+      <div class="row">
+        <h2>Services</h2>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="services__img"></div>
+          <!-- end of services__img -->
+        </div>
+        <div class="col-6">
+          <div class="services__img"></div>
+          <!-- end of services__img -->
+        </div>
       </div>
       <!-- end of services__img-group -->
-      <div class="services__text">
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-          ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-        </p>
-        <a href="services.html" class="nav__btn-primary">VIEW</a>
+      <div class="row center">
+        <div class="col-4">
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          </p>
+        </div>
+        <div class="col-2">
+          <a href="services.html" class="nav__btn-primary">VIEW</a>
+        </div>
       </div>
       <!-- end of services__text -->
     </section>
@@ -151,59 +158,64 @@
     </section>
     <!-- end of about -->
 
-    <section class="testimonials">
-      <h2>Testimonials</h2>
-      <div class="testimonials__group">
-        <div class="testimonials__group-text">
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat.
-          </p>
-          <a href="#" class="nav__btn-secondary">VIEW</a>
+    <section class="testimonials container">
+      <div class="row"><h2>TESTIMONIALS</h2></div>
+      <div class="row between">
+        <div class="col-3">
+          <div class="testimonials__group">
+            <div class="testimonials__group-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+              <a href="#" class="nav__btn-secondary">VIEW</a>
+            </div>
+          </div>
+          <!-- end of serv__group -->
+        </div>
+        <div class="col-3">
+          <div class="testimonials__group">
+            <div class="testimonials__group-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+              <a href="#" class="nav__btn-secondary">VIEW</a>
+            </div>
+          </div>
+          <!-- end of serv__group -->
+        </div>
+        <div class="col-3">
+          <div class="testimonials__group">
+            <div class="testimonials__group-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat.
+              </p>
+              <a href="#" class="nav__btn-secondary">VIEW</a>
+            </div>
+          </div>
+          <!-- end of serv__group -->
         </div>
       </div>
-      <!-- end of serv__group -->
-
-      <div class="testimonials__group">
-        <div class="testimonials__group-text">
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat.
-          </p>
-          <a href="#" class="nav__btn-secondary">VIEW</a>
-        </div>
-      </div>
-      <!-- end of serv__group -->
-
-      <div class="testimonials__group">
-        <div class="testimonials__group-text">
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat.
-          </p>
-          <a href="#" class="nav__btn-secondary">VIEW</a>
-        </div>
-      </div>
-      <!-- end of serv__group -->
     </section>
     <!-- end of serv class -->
   </body>
 
-  <footer>
-    <section class="footer-info">
-      <div class="footer-info__left">
+  <footer class="container">
+    <div class="row">
+      <div class="col-6">
         <p>Since 2011</p>
         <h3>Certified Professional Accountant</h3>
         <h3>Daniel FC Li Accounting</h3>
       </div>
 
-      <div class="footer-info__right">
+      <div class="col-6">
         <p>Contact Me</p>
         <p>FAQ</p>
       </div>
-    </section>
   </footer>
 </html>

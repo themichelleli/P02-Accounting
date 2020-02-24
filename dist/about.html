@@ -1,99 +1,154 @@
 <!DOCTYPE html>
-<html lang=“en”>
-	<head>
-		<meta charset=“utf-8” />
-		<title>Daniel Li</title>
-		<link rel="stylesheet" href="./css/normalize.css">
-		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
-		<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900&display=swap" rel="stylesheet">
+<html lang="“en”">
+  <head>
+    <meta charset="“utf-8”" />
+    <title>Daniel Li</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900&display=swap"
+      rel="stylesheet"
+    />
 
-		<link rel="stylesheet" href="./css/main.css">
-		<link rel="stylesheet" href="./css/nav.css">
-		<link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <!--	<link rel="stylesheet" href="./css/nav.css"> -->
+    <!--	<link rel="stylesheet" href="./css/form.css"> -->
 
-		    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	</head>
-	<body>
-
-	<nav class="nav">
-			<h1>Logo</h1>
-			<div class="nav__btn-group">
-				 <a href="index.html" class="nav__btn">home</a>
-           		 <a href="about.html" class="nav__btn">about</a>
-            	 <a href="services.html" class="nav__btn">services</a>
-            	 <a href="#" class="nav__btn">contact</a>
-			</div>
-		</nav>
-
-	<section class="about">
-			<div class="about__img">
-			</div> <!-- end of about__img -->
-			<div class="about__text">
-				<h2> About </h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
-			</div> <!-- end of about__text -->
-			
-		</section> <!-- end of about -->
-
-		<section class="landing">
-    <form class="form">
-      <div class="col">
-        <div class="form__header">
-          GET IN TOUCH WITH ME!
-        </div>
-        <div class="form__field">
-          <label for="name" class="form__label">NAME*</label>
-          <input type="text" name="name" class="form__input">
-        </div>
-        <div class="form__field">
-          <label class="form__label" for="email">EMAIL*</label>
-          <input class="form__input" type="email">
-        </div>
-        <div class="form__field">
-          <label class="form__label" for="">PHONE NUMBER</label>
-          <input class="form__input" type="text" name="phone">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container">
+        <div class="row between">
+          <h1>Logo</h1>
+          <div class="nav__btn-group row middle">
+            <a href="index.html" class="nav__btn">home</a>
+            <a href="about.html" class="nav__btn">about</a>
+            <a href="services.html" class="nav__btn">services</a>
+            <a href="#" class="nav__btn">contact</a>
+          </div>
         </div>
       </div>
-      <div class="col">
-        <div class="form__field">
-          <p class="form__label">YOUR AVAILABILITY</p>
-          <div class="row">
-            <button class="form__btn form__btn--toggle">Mon</button>
-            <button class="form__btn form__btn--toggle">Tues</button>
-            <button class="form__btn form__btn--toggle">Wed</button>
-            <button class="form__btn form__btn--toggle">Thurs</button>
-            <button class="form__btn form__btn--toggle">Fri</button>
-          </div> 
+    </nav>
+
+    <section class="about container">
+      <div class="row">
+        <div class="col-6">
+          <div class="about__img"></div>
+          <!-- end of about__img -->
         </div>
-        <div class="form__field">
-          <label class="form__label" for="message">MESSAGE</label>
-          <input class="form__input" type="text" name="message">
+        <div class="col-6">
+          <div class="about__text">
+            <h2>About</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+              consequat.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+              consequat.
+            </p>
+          </div>
         </div>
-        <input type="reset" value="Clear" class="form__btn form__btn--submit form__btn--submit-reverse">
-        <input type="submit" value="Submit" class="form__btn form__btn--submit">
       </div>
-    </form>
-  </section>
+      <!-- end of about__text -->
+    </section>
+    <!-- end of about -->
 
+    <section class="landing container">
+      <div class="row">
+        <div class="col-12">
+          <form class="form">
+            <div class="row">
+              <div class="col">
+                <div class="form__header">
+                  GET IN TOUCH WITH ME!
+                </div>
+                <div class="form__field">
+                  <label for="name" class="form__label">NAME*</label>
+                  <input type="text" name="name" class="form__input" />
+                </div>
+                <div class="form__field">
+                  <label class="form__label" for="email">EMAIL*</label>
+                  <input class="form__input" type="email" />
+                </div>
+                <div class="form__field">
+                  <label class="form__label" for="">PHONE NUMBER</label>
+                  <input class="form__input" type="text" name="phone" />
+                </div>
+              </div>
+              <div class="col">
+                <div class="form__field">
+                  <p class="form__label">YOUR AVAILABILITY</p>
+                  <div class="row">
+                    <div class="col-4">
+                      <button class="form__btn form__btn--toggle">Mon</button>
+                    </div>
+                    <div class="col-4">
+                      <button class="form__btn form__btn--toggle">Tues</button>
+                    </div>
+                    <div class="col-4">
+                      <button class="form__btn form__btn--toggle">Wed</button>
+                    </div>
+                    <div class="col-4">
+                      <button class="form__btn form__btn--toggle">Thurs</button>
+                    </div>
+                    <div class="col-4">
+                      <button class="form__btn form__btn--toggle">Fri</button>
+                    </div>
+                  </div>
+                  <div class="form__field">
+                    <label class="form__label" for="message">MESSAGE</label>
+                    <input class="form__input" type="text" name="message" />
+                  </div>
+                  <div class="row end">
+                    <div class="col-3">
+                      <input
+                        type="reset"
+                        value="Clear"
+                        class="form__btn form__btn--submit form__btn--submit-reverse"
+                      />
+                    </div>
+                    <div class="col-3">
+                      <input
+                        type="submit"
+                        value="Submit"
+                        class="form__btn form__btn--submit"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
 
+  <footer class="container">
+    <div class="row">
+      <div class="col-6">
+        <p>Since 2011</p>
+        <h3>Certified Professional Accountant</h3>
+        <h3>Daniel FC Li Accounting</h3>
+      </div>
 
-	</body>
+      <div class="col-6">
+        <p>Contact Me</p>
+        <p>FAQ</p>
+      </div>
+  </footer>
 
-	<footer>
-		<section class="footer-info">
-			<div class="footer-info__left">
-				<p>Since 2011</p>
-				<h3>Certified Professional Accountant</h3>
-				<h3>Daniel FC Li Accounting</h3>
-			</div>
+</html>
 
-			<div class="footer-info__right">
-				<p>Contact Me</p>
-				<p>FAQ</p>
-			</div>
-		</section>
-
-	</footer>
-	</html>
