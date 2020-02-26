@@ -15,62 +15,84 @@
 
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/grid.css" />
-    <!--	<link rel="stylesheet" href="./css/nav.css"> -->
-    <!--	<link rel="stylesheet" href="./css/form.css"> -->
+            <link rel="stylesheet" href="./css/nav.css"> 
+            <link rel="stylesheet" href="./css/form.css"> 
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <nav class="nav">
       <div class="container">
-        <div class="row between">
-          <h1>Logo</h1>
-          <div class="nav__btn-group row middle">
-            <a href="index.html" class="nav__btn">home</a>
-            <a href="about.html" class="nav__btn">about</a>
-            <a href="services.html" class="nav__btn">services</a>
-            <a href="#" class="nav__btn">contact</a>
+        <div class="row between middle">
+          <div class="col-1">
+          <img src="./img/logo.svg" alt="" class="logo">
+        </div>
+          <div class="col-7">
+          <div class="nav__btn-group row center">
+            <a href="index.html" class="nav__btn col-3">home</a>
+            <a href="about.html" class="nav__btn col-3">about</a>
+            <a href="services.html" class="nav__btn col-3">services</a>
+            <a href="#" class="nav__btn col-3">contact</a>
+          </div>
           </div>
         </div>
       </div>
     </nav>
 
     <section class="about container">
-      <div class="row">
-        <div class="col-6">
-          <div class="about__img"></div>
+      <div class="row between middle">
+        <div class="col-4">
+          <img src="./img/about.svg" alt="" srcset="">
           <!-- end of about__img -->
         </div>
-        <div class="col-6">
+        <!-- end of col-6 -->
+        <div class="col-4">
           <div class="about__text">
-            <h2>About</h2>
+            <h3>Hi my name's Daniel! I've been a CPA since 1996 with a wide range of expertise within the field</h3>
+            <a href="#" class="nav__btn-primary">VIEW</a>
+          </div>
+          <!-- end of about__text -->
+        </div>
+        <!-- end of col-6 -->
+      </div>
+      <!-- end of row -->
+      </div>
+    </section>
+    <!-- end of about -->
+
+    <section class="history">
+      <div class="container">
+      <div class="row between">
+        <div class="col-6">
+          <div class="history__text">
+            <h2>Where did I start off?</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat.
+              I began my professional accounting career in Canada in 1996. For the first 15 years, I have worked as a consultant, accountant and controller in a variety of different industries including construction, retails, auto, technologies, auction, transportation, and manufacturing.
+
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat.
+              Since 2011, I started my own practice offering public accounting services from basic book keeping to filing corporate tax returns. In addition, I provide management consultation to assist businesses with resolving business model issues, by providing detailed analysis to aid in creating recommendations to their business strategic plans.
             </p>
+            <p>
+              As a CPA, I am continuing to sustain my professional competence by undertaking continuing education and professional development activities in accordance with the standards and policies established by the CPA Association. I put this as a top priority for me to ensure the quality of my performance is maintained at a high level for you to benefit from my trustable work.</p>
           </div>
         </div>
+        <div class="col-4">
+        <img src="./img/about-2.svg" alt="" srcset=""></div>
+      </div>
       </div>
       <!-- end of about__text -->
     </section>
     <!-- end of about -->
 
     <section class="landing container">
-      <div class="row">
-        <div class="col-12">
+      <div class="row between">
+        <div class="col-5">
+        <img src="./img/about-3.svg" alt="" srcset=""></div>
+        <div class="col-6">
           <form class="form">
             <div class="row">
-              <div class="col">
+              <div class="col-12 col-xs-12">
                 <div class="form__header">
                   GET IN TOUCH WITH ME!
                 </div>
@@ -87,23 +109,23 @@
                   <input class="form__input" type="text" name="phone" />
                 </div>
               </div>
-              <div class="col">
+              <div class="col-12 col-xs-12">
                 <div class="form__field">
                   <p class="form__label">YOUR AVAILABILITY</p>
                   <div class="row">
-                    <div class="col-4">
+                    <div class="col-4 col-xs-4">
                       <button class="form__btn form__btn--toggle">Mon</button>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-xs-4">
                       <button class="form__btn form__btn--toggle">Tues</button>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-xs-4">
                       <button class="form__btn form__btn--toggle">Wed</button>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-xs-4">
                       <button class="form__btn form__btn--toggle">Thurs</button>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-xs-4">
                       <button class="form__btn form__btn--toggle">Fri</button>
                     </div>
                   </div>
@@ -111,19 +133,19 @@
                     <label class="form__label" for="message">MESSAGE</label>
                     <input class="form__input" type="text" name="message" />
                   </div>
-                  <div class="row end">
-                    <div class="col-3">
-                      <input
-                        type="reset"
-                        value="Clear"
-                        class="form__btn form__btn--submit form__btn--submit-reverse"
-                      />
-                    </div>
-                    <div class="col-3">
+                  <div class="row">
+                    <div class="col-3 col-xs-12">
                       <input
                         type="submit"
                         value="Submit"
                         class="form__btn form__btn--submit"
+                      />
+                    </div>
+                    <div class="col-3 col-xs-12">
+                      <input
+                        type="reset"
+                        value="Clear"
+                        class="form__btn form__btn--submit form__btn--submit-reverse"
                       />
                     </div>
                   </div>
@@ -140,8 +162,8 @@
     <div class="row">
       <div class="col-6">
         <p>Since 2011</p>
-        <h3>Certified Professional Accountant</h3>
-        <h3>Daniel FC Li Accounting</h3>
+        <h4>Certified Professional Accountant</h4>
+        <h4>Daniel FC Li Accounting</h4>
       </div>
 
       <div class="col-6">
