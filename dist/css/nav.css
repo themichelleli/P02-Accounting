@@ -17,20 +17,6 @@
   transition: font-weight 0.1s ease-in-out;
 }
 
-/*referenced from https://codepen.io/martinwolf/pen/eNNdme/*/
-.nav__btn::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background: #000;
-  transition: width 0.2s;
-}
-
-.nav__btn:hover::after {
-  width: 100%;
-}
-
 .nav__btn--active {
   font-weight: bold;
 }

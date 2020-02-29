@@ -64,6 +64,10 @@ p {
   background-color: #f4f8fc;
 }
 
+.testimonials__group-text {
+  text-align: center;
+}
+
 footer {
   padding-top: 4em;
   padding-bottom: 2em;
