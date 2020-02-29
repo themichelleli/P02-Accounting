@@ -145,12 +145,13 @@
     </section>
     <!-- end of serv class -->
 
-    <section class="landing">
-      <form class="form">
-        <div class="col">
+    <section class="landing container">
+      <form class="form" id="contact">
           <div class="form__header">
             GET IN TOUCH WITH ME!
           </div>
+        <div class="row between">
+        <div class="col-5 col-xs-12">
           <div class="form__field">
             <label for="name" class="form__label">NAME*</label>
             <input type="text" name="name" class="form__input" />
@@ -164,31 +165,39 @@
             <input class="form__input" type="text" name="phone" />
           </div>
         </div>
-        <div class="col">
+        <div class="col-5 col-xs-12">
           <div class="form__field">
             <p class="form__label">YOUR AVAILABILITY</p>
             <div class="row">
-              <button class="form__btn form__btn--toggle">Mon</button>
-              <button class="form__btn form__btn--toggle">Tues</button>
-              <button class="form__btn form__btn--toggle">Wed</button>
-              <button class="form__btn form__btn--toggle">Thurs</button>
-              <button class="form__btn form__btn--toggle">Fri</button>
+              <div class="col-4"><button type="button" class="form__btn form__btn--toggle">Mon</button></div>
+              <div class="col-4"><button type="button" class="form__btn form__btn--toggle">Tues</button></div>
+              <div class="col-4"><button type="button" class="form__btn form__btn--toggle">Wed</button></div>
+              <div class="col-4"><button type="button" class="form__btn form__btn--toggle">Thurs</button></div>
+              <div class="col-4"><button type="button" class="form__btn form__btn--toggle">Fri</button></div>
             </div>
           </div>
+          <hr>
           <div class="form__field">
             <label class="form__label" for="message">MESSAGE</label>
-            <input class="form__input" type="text" name="message" />
+            <textarea name="message" form="contact" cols="30" rows="5" class="form__input"></textarea>
           </div>
+          <div class="row end">
+            <div class="col-3">
           <input
             type="reset"
             value="Clear"
             class="form__btn form__btn--submit form__btn--submit-reverse"
           />
+            </div>
+            <div class="col-3">
           <input
             type="submit"
             value="Submit"
             class="form__btn form__btn--submit"
           />
+            </div>
+          </div>
+        </div>
         </div>
       </form>
     </section>

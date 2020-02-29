@@ -4,21 +4,25 @@
  * */
 
 .form {
-  border: 1px solid lightgrey;
-  display: table;
-  padding: 8em 4em;
+  background-color: #c7daf133;
   border-radius: 15px;
+  display: table;
+  padding: 8em;
   font-size: 0.85em;
   font-weight: 300;
   width: 100%;
 }
 
+.form--no-bg {
+  background: none;
+}
+
 .form__header {
   font-weight: 900;
-  font-size: 1.1em;
+  font-size: 2.5em;
   letter-spacing: 0.15em;
   color: #535461;
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 /* 
  * resource from: https://stackoverflow.com/questions/3131072/how-to-change-input-text-box-style-to-line
@@ -26,17 +30,15 @@
 .form__field {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1.5em;
+  margin: 1.5em 0;
 }
 
 .form__label {
-  margin-bottom: 1em;
-  letter-spacing: 0.15em;
+  margin: 1em 0;
+  letter-spacing: 0.08em;
 }
 
 .form__input {
-  border-radius: 0.3em;
-
   background: transparent;
   border: none;
   border-radius: 0;
@@ -55,8 +57,9 @@
 
 .form__btn--toggle {
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #0000;
   padding: 0.5em 2em;
+  margin-bottom: 1em;
 }
 
 .form__btn--toggle:hover {
