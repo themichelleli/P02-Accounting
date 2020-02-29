@@ -16,24 +16,42 @@
     <link rel="stylesheet" href="./css/form.css" />
     <link rel="stylesheet" href="./css/services.css">
 
+    <link rel="icon" href="./img/daniel-li-favicon-16.png" type="image/x-icon">
+    <link rel="icon" href="./img/daniel-li-favicon-32.png" type="image/x-icon">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
     <nav class="nav">
       <div class="container">
-        <div class="row between middle">
-          <div class="col-1">
-            <img src="./img/logo.svg" alt="" class="logo" />
+        <div class="row between middle middle-xs">
+          <div class="nav__mobile">
+            <img src="./img/mobile-menu.svg" alt="" srcset="" class="nav__mobile-icon">
+            <div class="nav__btn-group--mobile">
+              <a href="/" class ="nav__btn">home</a>
+              <a href="/about.html" class ="nav__btn">about</a>
+              <a href="/" class ="nav__btn nav__btn--active">services</a>
+              <a href="/" class ="nav__btn">contact</a>
+            </div>
+          </div>
+          <div class="col-4 nav__logo">
+            <a href="/">
+              <img src="./img/logo.svg" alt="" class="nav__logo-icon" />
+            </a>
           </div>
 
-          <div class="col-7">
-            <div class="nav__btn-group row center">
+          <div class="col-7 nav__desktop">
+            <div class="row end">
               <a href="index.html" class="nav__btn col-3">home</a>
               <a href="about.html" class="nav__btn col-3">about</a>
-              <a href="services.html" class="nav__btn col-3">services</a>
+              <a href="services.html" class="nav__btn col-3 nav__btn--active">services</a>
               <a href="#" class="nav__btn col-3">contact</a>
             </div>
+          </div>
+
+          <div class="col-1 nav__search">
+            <img src="./img/search.svg" alt="" srcset="" class="nav__search-icon">
           </div>
         </div>
       </div>
@@ -53,65 +71,75 @@
     <section class="serv-options">
       <div class="container">
         <div class="row around">
-          <div class="col-4">
+          <div class="col-4 col-xs-12">
+            <div class="serv-options__group">
             <img class="serv-options__img" src="./img/service-1.svg" />
-            <div class="serv-options__group-text">
+            <div class="serv-options__group-text row center">
               <h2 class="serv-options__title">Book Keeping</h2>
-              <p>
+              <p class="serv-options__caption">
                 Record and organize your financial documents.
               </p>
               <a href="book-keeping.html" class="nav__btn-secondary">VIEW</a>
             </div>
           </div>
+          </div>
           <!-- end of serv__group -->
 
-          <div class="col-4">
+          <div class="col-4 col-xs-12">
+            <div class="serv-options__group">
             <img class="serv-options__img" src="./img/service-2.svg" />
-            <div class="serv-options__group-text">
+            <div class="serv-options__group-text row center">
               <h2 class="serv-options__title">Management Reporting</h2>
-              <p>
+              <p class="serv-options__caption">
                 Plan and regulate the performance of your company.
               </p>
               <a href="book-keeping.html" class="nav__btn-secondary">VIEW</a>
             </div>
           </div>
+          </div>
           <!-- end of serv__group -->
 
-          <div class="col-4">
+          <div class="col-4 col-xs-12">
+            <div class="serv-options__group">
             <img class="serv-options__img" src="./img/service-3.svg" />
-            <div class="serv-options__group-text">
+            <div class="serv-options__group-text row center">
               <h2 class="serv-options__title">Corporate Tax Return</h2>
-              <p>
+              <p class="serv-options__caption">
                 Preparing and submitting your business's tax returns (T2).
               </p>
               <a href="book-keeping.html" class="nav__btn-secondary">VIEW</a>
             </div>
           </div>
+          </div>
           <!-- end of serv__group -->
 
-          <div class="col-4">
+          <div class="col-4 col-xs-12">
+            <div class="serv-options__group">
             <img class="serv-options__img" src="./img/service-4.svg" />
-            <div class="serv-options__group-text">
+            <div class="serv-options__group-text row center">
               <h2 class="serv-options__title">Personal Tax Return</h2>
-              <p>
+              <p class="serv-options__caption">
                 Preparing and submitting your personal tax returns (T4).
               </p>
               <a href="book-keeping.html" class="nav__btn-secondary">VIEW</a>
             </div>
           </div>
+          </div>
           <!-- end of serv__group -->
 
-          <div class="col-4">
+          <div class="col-4 col-xs-12">
+            <div class="serv-options__group">
             <img class="serv-options__img" src="./img/service-5.svg" />
-            <div class="serv-options__group-text">
+            <div class="serv-options__group-text row center">
               <h2 class="serv-options__title">Estate Planning</h2>
-              <p>
+              <p class="serv-options__caption">
                 Preserve your wealth in an orderly and effective manner.
               </p>
               <a href="book-keeping.html" class="nav__btn-secondary">VIEW</a>
             </div>
           </div>
         </div>
+      </div>
       </div>
       <!-- end of serv__group -->
     </section>

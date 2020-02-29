@@ -7,13 +7,6 @@
   padding: 2em 0;
 }
 
-/* Button container */
-.nav__btn-group {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-}
-
 /* Base Nav Button */
 .nav__btn {
   border-radius: 14px;
@@ -21,7 +14,25 @@
   font-size: 0.9em;
   text-decoration: none;
   letter-spacing: 2px;
-  transition: background-color 0.5s ease-out;
+  transition: font-weight 0.1s ease-in-out;
+}
+
+/*referenced from https://codepen.io/martinwolf/pen/eNNdme/*/
+.nav__btn::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width 0.2s;
+}
+
+.nav__btn:hover::after {
+  width: 100%;
+}
+
+.nav__btn--active {
+  font-weight: bold;
 }
 
 .nav__btn:hover,
@@ -154,29 +165,47 @@
 }
 /*End of Secondary Button*/
 
-/* Base container */
-/*.nav {
-  background-color:#C7DAF1;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 3em 0;
+.nav__mobile {
+  display: block;
+}
+.nav__mobile,
+.nav__logo,
+.nav__search {
+  width: 25vw;
+  text-align: center;
 }
 
-/* Button container */
-/*.nav__btn-group {
-  align-items: center;
-  display:flex;
-  flex-direction: row;
+.nav__mobile-icon,
+.nav__search-icon {
+  width: 1.6em;
 }
 
-/* Base Nav Button */
-/*.nav__btn {
-  background-color: #81A1C1;
-  border-radius: 3px;
-  color: black;
-  flex: 0 1 auto;
-  font-size: 0.9em;
-  margin: 0 1em;
-  padding: 0.5em;
-}*/
+.nav__logo-icon {
+  width: 3.5em;
+}
+
+.nav__desktop {
+  display: none;
+}
+
+.nav__btn-group--mobile {
+  display: none;
+}
+
+@media only screen and (min-width: 75em) {
+  .nav__mobile {
+    display: none;
+  }
+
+  .nav__desktop {
+    display: block;
+  }
+
+  .nav__logo {
+    text-align: start;
+  }
+
+  .nav__search {
+    text-align: end;
+  }
+}

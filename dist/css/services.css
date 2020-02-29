@@ -1,3 +1,17 @@
 .serv-options__title {
-  font-size: 1.2em;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+.serv-options__caption {
+  font-size: 0.85em;
+}
+
+.serv-options__group {
+  margin: 1.5em;
+  border: 1px solid #c7daf1;
+}
+
+.serv-options__group-text {
+  padding: 1em 4em;
 }
