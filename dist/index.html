@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./css/grid.css" />
      <link rel="stylesheet" href="./css/nav.css" /> 
      <link rel="stylesheet" href="./css/form.css" /> 
+     <link rel="stylesheet" href="./css/services.css">
+
 
     <link rel="icon" href="./img/daniel-li-favicon-16.png" type="image/x-icon">
     <link rel="icon" href="./img/daniel-li-favicon-32.png" type="image/x-icon">
@@ -53,10 +55,11 @@
       </div>
     </nav>
 
-    <section class="landing container">
+    <section class="landing">
+      <div class="container">
       <div class="row middle">
-        <div class="col-6">
-          <div class="col-7">
+        <div class="col-6 col-xs-12">
+          <div class="col-7 col-xs-8">
         <h3 class="landing__message">Book a consultation with me today to get started with your accounting needs!</h3>
         <button class="nav__btn-primary">BOOK CONSULTATION</button>
           </div>
@@ -65,56 +68,91 @@
           <img src="./img/calculator 1.svg" alt="" srcset="">
         </div>
       </div>
+    </div> <!-- end of container -->
     </section>
 
-    <section class="services container">
-      <div class="row center">
-        <h2>SERVICES</h2>
+
+
+
+     <section class="services">
+      <div class="container">
+        <div class=" row center center-xs">
+          <h2>SERVICES</h2>
+        </div>
+
+        <div class="row around">
+
+          <div class="col-4 col-xs-12">
+            <div class="serv-options__group">
+            <img class="serv-options__img" src="./img/service-1.svg" />
+            <div class="serv-options__group-text row center">
+              <h2 class="serv-options__title">Book Keeping</h2>
+              <p class="serv-options__caption">
+                Having a hard to keeping track of your personal or business records and finances?
+              </p>
+              <a href="services.html" class="nav__btn-secondary">VIEW</a>
+            </div>
+          </div>
+          </div>
+          <!-- end of serv__group -->
+
+          <div class="col-4 col-xs-12">
+            <div class="serv-options__group">
+            <img class="serv-options__img" src="./img/service-2.svg" />
+            <div class="serv-options__group-text row center">
+              <h2 class="serv-options__title">Management Reporting</h2>
+              <p class="serv-options__caption">
+                Feeling like you need help understanding the steps behind your personal or business tax returns?
+              </p>
+              <a href="services.html" class="nav__btn-secondary">VIEW</a>
+            </div>
+          </div>
+          </div>
+          <!-- end of serv__group -->
+
+          <div class="col-4 col-xs-12">
+            <div class="serv-options__group">
+            <img class="serv-options__img" src="./img/service-3.svg" />
+            <div class="serv-options__group-text row center">
+              <h2 class="serv-options__title">Corporate Tax Return</h2>
+              <p class="serv-options__caption">
+                Not sure whether your company’s management plan is the right fit at the moment?
+              </p>
+              <a href="services.html" class="nav__btn-secondary">VIEW</a>
+            </div>
+          </div>
+          </div>
+          <!-- end of serv__group -->
+
+      
+      </div> <!-- end of row around -->
       </div>
-      <div class="row">
-        <div class="col-4">
-          <img src="./img/service-1.svg" alt="" srcset="">
-          <p>Having a hard to keeping track of your company records and finances?
-          </p>
-          <!-- end of services__img -->
-        </div>
-        <div class="col-4">
-          <img src="./img/service-2.svg" alt="" srcset="">
-          <p>Feeling like you need help understanding the steps behind your personal or business tax returns?
-          </p>
-          <!-- end of services__img -->
-        </div>
-        <div class="col-4">
-          <img src="./img/service-3.svg" alt="" srcset="">
-          <p>Not sure whether your company’s management plan is the right fit at the moment?
-          </p>
-          <!-- end of services__img -->
-        </div>
-      </div>
-      <!-- end of services__img-group -->
+      <!-- end of container -->
     </section>
-    <!-- end of services -->
+    <!-- end of serv class -->
+
+
 
     <section class="referral">
       <div class="container">
       <div class="row between middle">
-      <div class="col-4">
+      <div class="col-4 col-xs-12">
       <h3>Save up to a month's fees with our Referral Program!</h3>
       <button class="nav__btn-primary">Learn How</button>
       </div>
-      <div class="col-4">
+      <div class="col-4 col-xs-12">
       <img src="./img/referral.svg" alt="" srcset=""></div>
       </div>
     </section>
 
     <section class="about container">
       <div class="row between middle">
-        <div class="col-4">
+        <div class="col-4 col-xs-12">
           <img src="./img/about.svg" alt="" srcset="">
           <!-- end of about__img -->
         </div>
         <!-- end of col-6 -->
-        <div class="col-4">
+        <div class="col-4 col-xs-12">
           <div class="about__text">
             <h3>Hi my name's Daniel! I've been a CPA since 1996 with a wide range of expertise within the field</h3>
             <a href="#" class="nav__btn-primary">VIEW</a>

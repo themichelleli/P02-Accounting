@@ -163,6 +163,8 @@
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   max-width: 100%;
+  justify-content:center;
+
 }
 
 .col-xs-offset-0 {
@@ -254,7 +256,9 @@
 
 .around-xs {
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
+      justify-content: flex-start;
+
 }
 
 .between-xs {
@@ -484,7 +488,9 @@
 
   .around-sm {
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
+        justify-content: flex-start;
+
   }
 
   .between-sm {
@@ -715,7 +721,9 @@
 
   .around-md {
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    /*justify-content: space-around;*/
+        justify-content: flex-start;
+
   }
 
   .between-md {
@@ -946,7 +954,7 @@
 
   .around {
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: flex-start;
   }
 
   .between {
