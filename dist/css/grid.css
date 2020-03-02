@@ -949,7 +949,7 @@
 
   .around {
     -ms-flex-pack: distribute;
-    justify-content: flex-start;
+    /*justify-content: space-around;*/
   }
 
   .between {
