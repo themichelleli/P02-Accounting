@@ -7,7 +7,7 @@
   background-color: #c7daf133;
   border-radius: 15px;
   display: table;
-  padding: 8em;
+  padding: 8em 3em;
   font-size: 0.85em;
   font-weight: 300;
   width: 100%;
@@ -89,4 +89,10 @@
 .form__btn--submit-reverse:hover {
   background-color: #81a1c1;
   color: #fff;
+}
+
+@media only screen and (min-width: 75em) {
+  .form {
+    padding: 8em;
+  }
 }
