@@ -56,7 +56,12 @@ p {
 
 .landing,
 .referral,
-.testimonials {
+.testimonials,
+.services-referral,
+.timeline,
+.estate-planning,
+.reporting-instructions,
+.management-reporting {
   padding: 2em 0;
 }
 
@@ -70,15 +75,30 @@ p {
   margin-bottom: 2em;
 }
 
+
 .referral,
 .testimonials,
-.history {
+.history,
+.services-referral,
+.estate-planning,
+.management-reporting {
   background-color: #f4f8fc;
 }
 
 .testimonials__group-text {
   text-align: center;
 }
+
+.estate-planning, 
+.management-reporting, 
+.timeline, 
+.reporting-instructions{
+	padding:6rem 0;
+}
+
+.services-referral{
+	margin: 4rem 0;
+	}
 
 
 
