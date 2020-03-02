@@ -21,9 +21,7 @@ body {
   flex-wrap: wrap;
 }
 
-.nav__mobile-icon, .nav__logo-icon, .nav__search-icon{
-	padding:0 0;
-}
+
 
 img {
   width: 100%;
