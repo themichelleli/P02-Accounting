@@ -17,23 +17,39 @@
   </head>
   <body>
 
-   <nav class="nav">
+    <nav class="nav">
       <div class="container">
-        <div class="row between middle">
-          <div class="col-1">
-          <img src="./img/logo.svg" alt="" class="logo"></div>
-          <div class="col-7">
-          <div class="nav__btn-group row center">
-            <a href="index.html" class="nav__btn col-3">home</a>
-            <a href="about.html" class="nav__btn col-3">about</a>
-            <a href="services.html" class="nav__btn col-3">services</a>
-            <a href="#" class="nav__btn col-3">contact</a>
+        <div class="row between middle middle-xs">
+          <div class="nav__mobile">
+            <img src="./img/mobile-menu.svg" alt="" srcset="" class="nav__mobile-icon">
+            <div class="nav__btn-group--mobile">
+              <a href="/" class ="nav__btn">home</a>
+              <a href="/about.html" class ="nav__btn">about</a>
+              <a href="/" class ="nav__btn nav__btn--active">services</a>
+              <a href="/" class ="nav__btn">contact</a>
+            </div>
           </div>
+          <div class="col-4 nav__logo">
+            <a href="index.html">
+              <img src="./img/logo.svg" alt="" class="nav__logo-icon" />
+            </a>
+          </div>
+
+          <div class="col-7 nav__desktop">
+            <div class="row end">
+              <a href="index.html" class="nav__btn col-3">home</a>
+              <a href="about.html" class="nav__btn col-3">about</a>
+              <a href="services.html" class="nav__btn col-3 nav__btn--active">services</a>
+              <a href="#" class="nav__btn col-3">contact</a>
+            </div>
+          </div>
+
+          <div class="col-1 nav__search">
+            <img src="./img/search.svg" alt="" srcset="" class="nav__search-icon">
           </div>
         </div>
       </div>
     </nav>
-
   <section class="referral">
       <div class="container">
       <div class="row between middle">

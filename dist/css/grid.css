@@ -163,7 +163,10 @@
   -ms-flex-preferred-size: 100%;
   flex-basis: 100%;
   max-width: 100%;
+  padding: 0 2rem;
+  
 }
+
 
 .col-xs-offset-0 {
   margin-left: 0;
