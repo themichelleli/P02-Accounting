@@ -25,12 +25,19 @@ body {
 
 img {
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 
+
 @media(max-width:40em){
+	.history img{
+		/*padding: 4rem 0;*/
+	}
+}
+
+@media(max-width:30em){
 	img{
-		padding: 2rem 4rem;
+		/*padding: 1rem 1rem;*/
 	}
 }
 
