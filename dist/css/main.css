@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   width: 100vw;
@@ -21,14 +25,9 @@ body {
   flex-wrap: wrap;
 }
 
-
-
 img {
   width: 100%;
 }
-
-
-
 
 h2 {
   font-size: 2.8em;
@@ -69,7 +68,6 @@ p {
   margin-bottom: 2em;
 }
 
-
 .referral,
 .testimonials,
 .history,
@@ -83,18 +81,16 @@ p {
   text-align: center;
 }
 
-.estate-planning, 
-.management-reporting, 
-.timeline, 
-.reporting-instructions{
-	padding:6rem 0;
+.estate-planning,
+.management-reporting,
+.timeline,
+.reporting-instructions {
+  padding: 6rem 0;
 }
 
-.services-referral{
-	margin: 4rem 0;
-	}
-
-
+.services-referral {
+  margin: 4rem 0;
+}
 
 footer {
   padding-top: 4em;
