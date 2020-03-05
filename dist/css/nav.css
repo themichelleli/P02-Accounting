@@ -164,12 +164,12 @@
 .nav__mobile-icon,
 .nav__search-icon {
   width: 1.6em;
-  padding:0 0;
+  padding: 0 0;
 }
 
 .nav__logo-icon {
   width: 3.5em;
-  padding:0 0;
+  padding: 0 0;
 }
 
 .nav__desktop {
@@ -177,6 +177,28 @@
 }
 
 .nav__btn-group--mobile {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 20%;
+  padding: 4em;
+}
+
+.nav__btn--mobile {
+  color: #fff;
+  margin: 1em 0;
+}
+
+.show {
+  display: flex;
+}
+
+.hidden {
   display: none;
 }
 

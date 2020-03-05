@@ -18,16 +18,21 @@
   <body>
 
     <nav class="nav">
+            <div class="nav__btn-group--mobile hidden">
+              <div class="row end-xs">
+                <div class="col-xs-2">
+                <img src="./img/exit.svg" alt="Close Mobile Menu" onclick="toggleMenu()" />
+                </div>
+              </div>
+              <a href="/" class ="nav__btn nav__btn--mobile nav__btn--active">home</a>
+              <a href="/about.html" class ="nav__btn nav__btn--mobile">about</a>
+              <a href="/" class ="nav__btn nav__btn--mobile">services</a>
+              <a href="/" class ="nav__btn nav__btn--mobile">contact</a>
+            </div>
       <div class="container">
         <div class="row between middle middle-xs">
           <div class="nav__mobile">
-            <img src="./img/mobile-menu.svg" alt="" srcset="" class="nav__mobile-icon">
-            <div class="nav__btn-group--mobile">
-              <a href="/" class ="nav__btn">home</a>
-              <a href="/about.html" class ="nav__btn">about</a>
-              <a href="/" class ="nav__btn nav__btn--active">services</a>
-              <a href="/" class ="nav__btn">contact</a>
-            </div>
+            <img src="./img/mobile-menu.svg" alt="" srcset="" class="nav__mobile-icon" onclick="toggleMenu()">
           </div>
           <div class="col-4 nav__logo">
             <a href="index.html">
@@ -37,10 +42,10 @@
 
           <div class="col-7 nav__desktop">
             <div class="row end">
-              <a href="index.html" class="nav__btn col-3">home</a>
+              <a href="index.html" class="nav__btn col-3 nav__btn--active">home</a>
               <a href="about.html" class="nav__btn col-3">about</a>
-              <a href="services.html" class="nav__btn col-3 nav__btn--active">services</a>
-              <a href="#" class="nav__btn col-3">contact</a>
+              <a href="services.html" class="nav__btn col-3">services</a>
+              <a href="#get-in-touch" class="nav__btn col-3">contact</a>
             </div>
           </div>
 
@@ -164,8 +169,16 @@
       </div>
     </section>
 
+<<<<<<< HEAD
     
 <footer class="container">
+=======
+<script src="./js/main.js"></script>
+
+  </body>
+
+  <footer class="container">
+>>>>>>> final
     <div class="row">
       <div class="col-6 col-md-6 col-sm-6 col-xs-12">
         <p>Since 2011</p>
@@ -183,9 +196,13 @@
 
       </div>
   </footer>
+<<<<<<< HEAD
 
 
   </body>
 
   
   </html>
+=======
+  </html>
+>>>>>>> final

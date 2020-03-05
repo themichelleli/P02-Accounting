@@ -20,16 +20,21 @@
   </head>
   <body>
     <nav class="nav">
+            <div class="nav__btn-group--mobile hidden">
+              <div class="row end-xs">
+                <div class="col-xs-2">
+                <img src="./img/exit.svg" alt="Close Mobile Menu" onclick="toggleMenu()" />
+                </div>
+              </div>
+              <a href="index.html" class ="nav__btn nav__btn--mobile nav__btn--active">home</a>
+              <a href="about.html" class ="nav__btn nav__btn--mobile">about</a>
+              <a href="services.html" class ="nav__btn nav__btn--mobile">services</a>
+              <a href="#get-in-touch" class ="nav__btn nav__btn--mobile">contact</a>
+            </div>
       <div class="container">
         <div class="row between middle middle-xs">
           <div class="nav__mobile">
-            <img src="./img/mobile-menu.svg" alt="" srcset="" class="nav__mobile-icon">
-            <div class="nav__btn-group--mobile">
-              <a href="/" class ="nav__btn nav__btn--active">home</a>
-              <a href="/about.html" class ="nav__btn">about</a>
-              <a href="/" class ="nav__btn">services</a>
-              <a href="#get-in-touch" class ="nav__btn">contact</a>
-            </div>
+            <img src="./img/mobile-menu.svg" alt="" srcset="" class="nav__mobile-icon" onclick="toggleMenu()">
           </div>
           <div class="col-4 nav__logo">
             <a href="index.html">
@@ -258,6 +263,11 @@
       </div>
     </section>
     <!-- end of serv class -->
+<<<<<<< HEAD
+=======
+    <script src="./js/main.js"></script>
+  </body>
+>>>>>>> final
 
     <footer class="container">
     <div class="row">
