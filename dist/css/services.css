@@ -12,11 +12,16 @@
   border: 1px solid #c7daf1;
 }
 
-
 .serv-options__group-text {
-  padding: 1em 4em;
+  padding: 1em 2em;
 }
 
-.serv-options__img{
-	padding: 0 0;
+.serv-options__img {
+  padding: 0 0;
+}
+
+@media only screen and (min-width: 75em) {
+  .serv-options__group-text {
+    padding: 1em 4em;
+  }
 }
