@@ -24,7 +24,7 @@
 
   <body>
     <nav class="nav">
-            <div class="nav__btn-group--mobile hidden">
+            <div class="nav__btn-group--mobile hidden" aria-hidden="true">
               <div class="row end-xs">
                 <div class="col-xs-2">
                 <img src="./img/exit.svg" alt="Close Mobile Menu" onclick="toggleMenu()" />
@@ -63,11 +63,11 @@
     </nav>
 
     <section class="nav-services container">
-      <div class="nav__btn-group row">
+      <div id="services-options" class="nav__btn-group row">
         <p class="nav__btn-filter col">Filter:</p>
-        <a href="#" class="nav__btn-filter-op col">All</a>
-        <a href="#" class="nav__btn-filter-op col">Personal</a>
-        <a href="#" class="nav__btn-filter-op col">Business</a>
+        <button type="button" data-service-type="all" class="nav__btn-filter-op col nav__btn-filter-op--active">All</button>
+        <button type="button" data-service-type="personal" class="nav__btn-filter-op col">Personal</button>
+        <button type="button" data-service-type="business" class="nav__btn-filter-op col">Business</button>
         <!-- <a href="#" class="nav__btn-filter-op col">Referrals</a> -->
         <a href="#referral-section" class="nav__btn-filter-op col">Referral Program</a>
 
@@ -78,7 +78,7 @@
     <section class="serv-options">
       <div class="container">
         <div class="row around">
-          <div class="col-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-4 col-md-4 col-sm-6 col-xs-12 service-container" data-service-type='["all", "personal", "business"]'>
             <div class="serv-options__group">
             <img class="serv-options__img" src="./img/service-1.svg" />
             <div class="serv-options__group-text row center">
@@ -92,7 +92,7 @@
           </div>
           <!-- end of serv__group -->
 
-          <div class="col-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-4 col-md-4 col-sm-6 col-xs-12 service-container" data-service-type='["all", "personal", "business"]'>
             <div class="serv-options__group">
             <img class="serv-options__img" src="./img/service-2.svg" />
             <div class="serv-options__group-text row center">
@@ -106,7 +106,7 @@
           </div>
           <!-- end of serv__group -->
 
-          <div class="col-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-4 col-md-4 col-sm-6 col-xs-12 service-container" data-service-type='["all", "business"]'>
             <div class="serv-options__group">
             <img class="serv-options__img" src="./img/service-3.svg" />
             <div class="serv-options__group-text row center">
@@ -120,7 +120,7 @@
           </div>
           <!-- end of serv__group -->
 
-          <div class="col-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-4 col-md-4 col-sm-6 col-xs-12 service-container" data-service-type='["all", "personal"]'>
             <div class="serv-options__group">
             <img class="serv-options__img" src="./img/service-4.svg" />
             <div class="serv-options__group-text row center">
@@ -134,7 +134,7 @@
           </div>
           <!-- end of serv__group -->
 
-          <div class="col-4 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-4 col-md-4 col-sm-6 col-xs-12 service-container" data-service-type='["all", "personal", "business"]'>
             <div class="serv-options__group">
             <img class="serv-options__img" src="./img/service-5.svg" />
             <div class="serv-options__group-text row center">
